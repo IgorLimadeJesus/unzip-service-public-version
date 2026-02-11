@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HVma1z/+Ety7CjBboGiwJkXE9jl/M4ZhPaC8M+j8Ngg=",
+  "Source": "unzip-service",
+  "BasePath": "_content/unzip-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

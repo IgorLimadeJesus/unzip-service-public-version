@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unzip-service", "unzip-service\unzip-service.csproj", "{988E34A9-E4A2-4595-B3C8-0EDD99AA5476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6391BB92-80C0-4720-BC94-F57595877333}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988E34A9-E4A2-4595-B3C8-0EDD99AA5476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988E34A9-E4A2-4595-B3C8-0EDD99AA5476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988E34A9-E4A2-4595-B3C8-0EDD99AA5476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988E34A9-E4A2-4595-B3C8-0EDD99AA5476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

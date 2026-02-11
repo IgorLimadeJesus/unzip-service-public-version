@@ -1,0 +1,7 @@
+﻿services:
+  unzip-service:
+    image: unzip-service
+    build:
+      context: .
+      dockerfile: unzip-service/Dockerfile
+
