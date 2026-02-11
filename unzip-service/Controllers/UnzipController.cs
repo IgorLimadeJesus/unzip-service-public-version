@@ -147,7 +147,7 @@ public class UnzipController : ControllerBase
     {
         var psi = new ProcessStartInfo
         {
-            FileName = @"C:\Program Files\7-Zip\7z.exe",
+            FileName = "7z",
             Arguments = arguments,
             RedirectStandardOutput = true,
             RedirectStandardError = true,

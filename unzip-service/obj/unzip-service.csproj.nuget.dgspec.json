@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ThanosNigga\\Documents\\unzip-service\\unzip-service\\unzip-service\\unzip-service.csproj": {}
+    "/home/thanos/unzip-service-public-version/unzip-service/unzip-service.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ThanosNigga\\Documents\\unzip-service\\unzip-service\\unzip-service\\unzip-service.csproj": {
+    "/home/thanos/unzip-service-public-version/unzip-service/unzip-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ThanosNigga\\Documents\\unzip-service\\unzip-service\\unzip-service\\unzip-service.csproj",
+        "projectUniqueName": "/home/thanos/unzip-service-public-version/unzip-service/unzip-service.csproj",
         "projectName": "unzip-service",
-        "projectPath": "c:\\Users\\ThanosNigga\\Documents\\unzip-service\\unzip-service\\unzip-service\\unzip-service.csproj",
-        "packagesPath": "C:\\Users\\ThanosNigga\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ThanosNigga\\Documents\\unzip-service\\unzip-service\\unzip-service\\obj\\",
+        "projectPath": "/home/thanos/unzip-service-public-version/unzip-service/unzip-service.csproj",
+        "packagesPath": "/home/thanos/.nuget/packages/",
+        "outputPath": "/home/thanos/unzip-service-public-version/unzip-service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ThanosNigga\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/thanos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\ThanosNigga\\.dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
