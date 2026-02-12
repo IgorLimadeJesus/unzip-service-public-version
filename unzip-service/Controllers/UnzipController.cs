@@ -81,12 +81,8 @@ public class UnzipController : ControllerBase
             {
                 var singlePath = extractedFiles[0];
                 var fileBytes = await System.IO.File.ReadAllBytesAsync(singlePath);
-                var provider = new FileExtensionContentTypeProvider();
-                if (!provider.TryGetContentType(singlePath, out var contentType))
-                    contentType = "application/octet-stream";
-
                 Response.Headers["X-Job-Id"] = jobId;
-                return File(fileBytes, contentType, Path.GetFileName(singlePath));
+                return File(fileBytes, "application/octet-stream", Path.GetFileName(singlePath));
             }
 
             if (System.IO.File.Exists(resultZipPath))
@@ -97,7 +93,7 @@ public class UnzipController : ControllerBase
             var zipBytes = await System.IO.File.ReadAllBytesAsync(resultZipPath);
 
             Response.Headers["X-Job-Id"] = jobId;
-            return File(zipBytes, "application/zip", "extracted.zip");
+            return File(zipBytes, "application/octet-stream", "extracted.zip");
         }
         finally
         {
